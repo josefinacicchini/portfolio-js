@@ -12,15 +12,15 @@
 > > [x] (Opcional) Carpeta "img" para recursos gráficos.
 > > [x] Archivo "README.md" creado, que incluya una breve descripción del TP y este checklist.
 > > • Repositorio y Publicación:
-> > [ ] Repositorio en GitHub creado.
-> > [ ] Proyecto subido al repositorio.
+> > [x] Repositorio en GitHub creado.
+> > [x] Proyecto subido al repositorio.
 > > [ ] Proyecto publicado utilizando GitHub Pages.
 > > [ ] En el "README.md" se indica la URL de GitHub Pages.
 > > • Uso de Google Fonts:
 > > [x] Enlace a Google Fonts incluido en la sección "head" del HTML.
 > > [x] La tipografía importada se aplica en el sitio.
 > > [x] Redacta brevemente tu decisión: ¿Por qué elegiste esa fuente?
-> > Respuesta: Me gusta el estilo minimalista de las tipografías sans serif. ****\*\*\*\*****\*\*\*\*****\*\*\*\*****\_\_****\*\*\*\*****\*\*\*\*****\*\*\*\*****
+> > Respuesta: Me gusta el estilo minimalista de las tipografías sans serif. \***\*\*\*\*\*\*\***\*\*\*\*\***\*\*\*\*\*\*\***\_\_\***\*\*\*\*\*\*\***\*\*\*\*\***\*\*\*\*\*\*\***
 > > • HTML:
 > > < 4 de 6 >
 > > [x] El documento inicia con la declaración DOCTYPE y usa el atributo lang="es".
@@ -37,16 +37,15 @@
 > > Layout y Organización:
 > > [x] Se ha organizado el layout (especialmente en la sección "tarjetas") utilizando Flexbox o Grid.
 > > [x] Redacta: ¿Qué ventajas encontraste al utilizar Flexbox o Grid en tu proyecto?
-> > Respuesta: Me facilitó la alineación de las tarjetas y su adaptación a los cambios de tamaño de la pantalla.
-> > ****\*\*\*\*****\*\*****\*\*\*\*****\_\_\_\_****\*\*\*\*****\*\*****\*\*\*\*****
+> > Respuesta: Me facilitó la alineación de las tarjetas y su adaptación a los cambios de tamaño de la pantalla. \***\*\*\*\*\*\*\***\*\*\***\*\*\*\*\*\*\***\_\_\_\_\***\*\*\*\*\*\*\***\*\*\***\*\*\*\*\*\*\***
 > > Estilización de Componentes:
 > > [x] Se han personalizado los estilos de tablas, botones, enlaces y formularios.
 > > [x] Se han ajustado las dimensiones de imágenes y contenedores utilizando unidades relativas (%,
 > > rem, vh).
 > > [x] Se ha implementado al menos una animación o transición (por ejemplo, efecto hover en tarjetas o botones).
 > > [x] Redacta: ¿Qué animación o transición implementaste y por qué consideraste que era adecuada para tu proyecto?
-> > Respuesta: Implemente Hover en el menú y en los distintos botones para que sea visible su función. Implemente ****\*\*\*\*****\*\*****\*\*\*\*****\_\_\_\_****\*\*\*\*****\*\*****\*\*\*\*****
+> > Respuesta: Implemente Hover en el menú y en los distintos botones para que sea visible su función. Implemente \***\*\*\*\*\*\*\***\*\*\***\*\*\*\*\*\*\***\_\_\_\_\***\*\*\*\*\*\*\***\*\*\***\*\*\*\*\*\*\***
 > > • Consideraciones Adicionales:
 > > [x] El diseño es responsivo y se visualiza correctamente en distintos dispositivos.
 > > [x] Se aplicaron buenas prácticas de accesibilidad (por ejemplo, uso adecuado de atributos alt en las imágenes).
-> > [ ] Se añadieron comentarios adicionales donde se describan decisiones de diseño o la lógica de implementación.
+> > [x] Se añadieron comentarios adicionales donde se describan decisiones de diseño o la lógica de implementación.
