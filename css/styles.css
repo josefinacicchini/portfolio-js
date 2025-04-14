@@ -163,14 +163,14 @@ main {
 .home-btn {
   align-self: end;
   margin: 3% 0px;
+  color: #586565;
 }
 
 .home-btn:visited {
   color: #586565;
 }
-.home-btn:visited {
-  text-decoration: none;
-  color: #586565;
+.home-btn:hover {
+  color: #ffaebd;
 }
 
 .material-symbols-outlined {
