@@ -150,6 +150,7 @@ main {
   font-family: "Montserrat", sans-serif;
   color: #586565;
   text-align: start;
+  margin-top: 0px;
 }
 .pelicula img {
   width: 100%;
@@ -165,6 +166,10 @@ main {
 }
 
 .home-btn:visited {
+  color: #586565;
+}
+.home-btn:visited {
+  text-decoration: none;
   color: #586565;
 }
 
