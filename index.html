@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Josefina Cicchini</title>
+
+    <!-- Link a Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Link a Material Symbols -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined"
+    />
+
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header id="home">
+      <!-- <h1>¡Bienvenidos a mi portfolio!</h1> -->
+      <nav id="menu" class="menu">
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#peliculas">Inspo</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </header>
+    <main>
+      <section id="sobre-mi" class="sobre-mi">
+        <img
+          id="img-perfil"
+          class="img-perfil"
+          src="img/img-perfil.png"
+          alt="ilustración al estilo Ghibli de Josefina"
+        />
+        <div class="sobre-mi-texto">
+          <h3>Josefina Cicchini</h3>
+          <p>
+            ¡Hola! Soy desarrolladora frontend en formación, con interés en la
+            accesibilidad, la experiencia de usuario y el diseño web simple y
+            estético. Disfruto construir interfaces claras, funcionales y
+            centradas en el usuario. Me impulsa seguir aprendiendo y encontrar
+            nuevas formas de mejorar cada detalle.
+          </p>
+        </div>
+      </section>
+
+      <section class="habilidades-container" id="habilidades">
+        <h2>Habilidades</h2>
+        <div class="habilidades">
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+          </ul>
+        </div>
+        <a class="home-btn" href="#home"
+          ><span class="material-symbols-outlined"> arrow_circle_up </span></a
+        >
+      </section>
+
+      <section id="proyectos" class="proyectos-container">
+        <h2>Proyectos</h2>
+
+        <div class="proyectos">
+          <div class="proyecto">
+            <h3>Pawsome E-Commerce App</h3>
+            <img src="img/proj-pawsome.jpeg" alt="proyecto 1" />
+            <p>
+              Tienda online desarrollada con React JS. Permite navegar
+              productos, filtrarlos por categoría, agregarlos al carrito y
+              finalizar la compra. Usa Firebase para autenticación y base de
+              datos.
+            </p>
+          </div>
+          <div class="proyecto">
+            <h3>Web Madre Tierra</h3>
+            <img src="img/proj-webmadretierra.jpeg" alt="proyecto 2" />
+            <p>
+              Sitio web para una tienda de velas artesanales. Minimalista,
+              funcional, pensado para una experiencia tranquila y estética.
+            </p>
+          </div>
+          <div class="proyecto">
+            <h3>App Control Stock Madre Tierra</h3>
+            <img src="img/proj-stockmadretierra.jpeg" alt="proyecto 3" />
+            <p>
+              Aplicación interna para la gestión de stock de productos. Interfaz
+              simple, funcional y adaptada al flujo real de trabajo de la
+              tienda.
+            </p>
+          </div>
+        </div>
+
+        <a class="home-btn" href="#home"
+          ><span class="material-symbols-outlined"> arrow_circle_up </span></a
+        >
+      </section>
+
+      <section class="peliculas-container" id="peliculas">
+        <h2>Películas</h2>
+        <p id="peliculas-parrafo" class="peliculas-parrafo">
+          (Que me inspiran más allá de su contenido)
+        </p>
+        <div class="peliculas">
+          <div class="pelicula">
+            <h3>Gran Hotel Budapest</h3>
+            <img
+              src="img/peli-hotelbudapest.jpg"
+              alt="imagen del hotel de la película Gran Hotel Budapest"
+            />
+            <p>
+              Una obra visual meticulosamente compuesta. Simetría, paleta pastel
+              y humor sutil conviven en una historia con ritmo propio.
+            </p>
+          </div>
+          <div class="pelicula">
+            <h3>La Naranja Mecánica</h3>
+            <img
+              src="img/peli-naranjamecánica.jpg"
+              alt="fotografía de una escena de la película la naranja mecánica"
+            />
+            <p>
+              Estética provocadora, simetría perturbadora y narrativa intensa.
+              Usa el diseño, el sonido y el color como herramientas de impacto.
+            </p>
+          </div>
+          <div class="pelicula">
+            <h3>Alicia en el País de las Maravillas</h3>
+            <img
+              src="img/peli-alicia.webp"
+              alt="imagen de la película animada de disney, Alicia en el País de las Maravillas"
+            />
+            <p>
+              Un clásico del surrealismo animado de Disney. Colores vibrantes,
+              personajes excéntricos y lógica invertida invitan a imaginar sin
+              límites.
+            </p>
+          </div>
+        </div>
+        <a class="home-btn" href="#home"
+          ><span class="material-symbols-outlined"> arrow_circle_up </span></a
+        >
+      </section>
+
+      <section id="contacto" class="contacto-container">
+        <h2>Contacto</h2>
+        <p></p>
+        <form
+          action="https://formsubmit.com/josefinacicchini@gmail.com"
+          method="POST"
+        >
+          <div class="formulario">
+            <input
+              type="text"
+              id="nombre"
+              name="nombre"
+              placeholder="Nombre"
+              required
+            />
+            <input
+              type="text"
+              id="apellido"
+              name="apellido"
+              placeholder="Apellido"
+              required
+            />
+            <input
+              type="tel"
+              id="telefono"
+              name="telefono"
+              placeholder="Teléfono"
+              required
+            />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email"
+              required
+            />
+
+            <textarea
+              id="mensaje"
+              name="mensaje"
+              spellcheck="true"
+              placeholder="Escribí acá tu mensaje"
+              required
+            ></textarea>
+
+            <button class="btn-submit" type="submit"><b>Enviar</b></button>
+          </div>
+        </form>
+        <a class="home-btn" href="#home"
+          ><span class="material-symbols-outlined"> arrow_circle_up </span></a
+        >
+      </section>
+    </main>
+    <footer>
+      <h3>También podés encontrarme por acá</h3>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/josefina-cicchini" target="_blank">
+          <!-- Ícono LinkedIn SVG -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            x="0px"
+            y="0px"
+            width="60"
+            height="60"
+            viewBox="0,0,256,256"
+          >
+            <g
+              fill="#fbfbfb"
+              fill-rule="nonzero"
+              stroke="none"
+              stroke-width="1"
+              stroke-linecap="butt"
+              stroke-linejoin="miter"
+              stroke-miterlimit="10"
+              stroke-dasharray=""
+              stroke-dashoffset="0"
+              font-family="none"
+              font-weight="none"
+              font-size="none"
+              text-anchor="none"
+              style="mix-blend-mode: normal"
+            >
+              <g transform="scale(8.53333,8.53333)">
+                <path
+                  d="M15,3c-6.627,0 -12,5.373 -12,12c0,6.627 5.373,12 12,12c6.627,0 12,-5.373 12,-12c0,-6.627 -5.373,-12 -12,-12zM10.496,8.403c0.842,0 1.403,0.561 1.403,1.309c0,0.748 -0.561,1.309 -1.496,1.309c-0.842,0.001 -1.403,-0.561 -1.403,-1.309c0,-0.748 0.561,-1.309 1.496,-1.309zM12,20h-3v-8h3zM22,20h-2.824v-4.372c0,-1.209 -0.753,-1.488 -1.035,-1.488c-0.282,0 -1.224,0.186 -1.224,1.488c0,0.186 0,4.372 0,4.372h-2.917v-8h2.918v1.116c0.376,-0.651 1.129,-1.116 2.541,-1.116c1.412,0 2.541,1.116 2.541,3.628z"
+                ></path>
+              </g>
+            </g>
+          </svg>
+        </a>
+        <a href="https://github.com/josefinacicchini" target="_blank">
+          <!-- Ícono GitHub SVG -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            x="0px"
+            y="0px"
+            width="60"
+            height="60"
+            viewBox="0,0,256,256"
+          >
+            <g
+              fill="#fbfbfb"
+              fill-rule="nonzero"
+              stroke="none"
+              stroke-width="1"
+              stroke-linecap="butt"
+              stroke-linejoin="miter"
+              stroke-miterlimit="10"
+              stroke-dasharray=""
+              stroke-dashoffset="0"
+              font-family="none"
+              font-weight="none"
+              font-size="none"
+              text-anchor="none"
+              style="mix-blend-mode: normal"
+            >
+              <g transform="scale(8.53333,8.53333)">
+                <path
+                  d="M15,3c-6.627,0 -12,5.373 -12,12c0,5.623 3.872,10.328 9.092,11.63c-0.056,-0.162 -0.092,-0.35 -0.092,-0.583v-2.051c-0.487,0 -1.303,0 -1.508,0c-0.821,0 -1.551,-0.353 -1.905,-1.009c-0.393,-0.729 -0.461,-1.844 -1.435,-2.526c-0.289,-0.227 -0.069,-0.486 0.264,-0.451c0.615,0.174 1.125,0.596 1.605,1.222c0.478,0.627 0.703,0.769 1.596,0.769c0.433,0 1.081,-0.025 1.691,-0.121c0.328,-0.833 0.895,-1.6 1.588,-1.962c-3.996,-0.411 -5.903,-2.399 -5.903,-5.098c0,-1.162 0.495,-2.286 1.336,-3.233c-0.276,-0.94 -0.623,-2.857 0.106,-3.587c1.798,0 2.885,1.166 3.146,1.481c0.896,-0.307 1.88,-0.481 2.914,-0.481c1.036,0 2.024,0.174 2.922,0.483c0.258,-0.313 1.346,-1.483 3.148,-1.483c0.732,0.731 0.381,2.656 0.102,3.594c0.836,0.945 1.328,2.066 1.328,3.226c0,2.697 -1.904,4.684 -5.894,5.097c1.098,0.573 1.899,2.183 1.899,3.396v2.734c0,0.104 -0.023,0.179 -0.035,0.268c4.676,-1.639 8.035,-6.079 8.035,-11.315c0,-6.627 -5.373,-12 -12,-12z"
+                ></path>
+              </g>
+            </g>
+          </svg>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>

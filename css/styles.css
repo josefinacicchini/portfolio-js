@@ -1,0 +1,241 @@
+body {
+  background-color: #fbfbfb;
+  font-family: "Montserrat", sans-serif;
+  color: #586565;
+}
+
+header {
+  background-color: #fbfbfb;
+  padding: 20px;
+  text-align: center;
+}
+/* header h1 {
+  color: #586565;
+  font-size: 36px;
+  font-family: "Montserrat", sans-serif;
+} */
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #f0d7cd;
+  padding: 1%;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(88, 101, 101, 0.1);
+}
+.menu a {
+  color: #586565;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px;
+}
+
+.menu a:hover {
+  color: #ffaebd;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.sobre-mi {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.sobre-mi-texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  text-align: start;
+  margin-bottom: 10%;
+}
+.sobre-mi h3 {
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  color: #586565;
+
+  align-self: flex-start;
+}
+.sobre-mi p {
+  width: 50vw;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  color: #586565;
+}
+.img-perfil {
+  max-width: 30vw;
+  height: auto;
+}
+
+.habilidades-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 50px;
+}
+.habilidades {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 50vw;
+}
+.habilidades li {
+  list-style: none;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  color: #586565;
+  margin: 5px 0;
+}
+
+.proyectos-container,
+.peliculas-container,
+.contacto-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  margin: 50px;
+}
+
+.proyectos,
+.peliculas {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.proyectos h2 {
+  margin-left: 50px;
+}
+.proyecto,
+.pelicula {
+  display: flex;
+  flex: 1 1 300px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #dbdbdb;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 10px 0;
+  box-shadow: 0 2px 5px rgba(88, 101, 101);
+  max-width: 300px;
+  min-height: 50vh;
+}
+
+.proyecto img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.peliculas-parrafo {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  color: #586565;
+  text-align: start;
+}
+.pelicula img {
+  /* width: 35vw; */
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.home-btn {
+  align-self: end;
+  margin: 3% 0px;
+}
+
+.home-btn:visited {
+  color: #586565;
+}
+
+.material-symbols-outlined {
+  font-size: 40px;
+
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 40;
+}
+.material-symbols-outlined:hover {
+  color: #ffaebd;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin: 5% 20%;
+  font-family: "Montserrat", sans-serif;
+  gap: 10px;
+}
+
+input,
+textarea {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  padding: 1%;
+  border: 1px solid #586565;
+  border-radius: 0px;
+}
+
+.btn-submit {
+  background-color: #f0cdb6;
+  color: #fbfbfb;
+  border: none;
+  padding: 3%;
+  border-radius: 5%;
+  font-size: 1.5vw;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 0 5px 5px rgba(88, 101, 101, 0.1);
+  cursor: pointer;
+  margin: 1.5% 35%;
+}
+.btn-submit:hover {
+  background-color: #e4c0a9;
+}
+
+footer {
+  background-color: #f0d7cd;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(88, 101, 101, 0.1);
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 30px;
+}
+
+.social-icons a svg {
+  /* width: 48px;
+  height: 48px; */
+  display: inline-block;
+  vertical-align: middle;
+  transition: transform 0.2s ease;
+}
+
+.social-icons a:hover svg {
+  transform: scale(1.1);
+}
