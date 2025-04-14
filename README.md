@@ -6,7 +6,7 @@ Se trata de un portfolio personal que presenta información sobre mí, mis habil
 
 Link: 🔗 https://josefinacicchini.github.io/portfolio/
 
-###Checklist de contenidos
+### Checklist de contenidos
 
 • Estructura del Proyecto:
 
