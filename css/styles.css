@@ -49,6 +49,7 @@ main {
 
 .sobre-mi {
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
   justify-content: space-around;
 }
@@ -58,7 +59,7 @@ main {
   flex-direction: column;
   justify-content: end;
   align-items: center;
-  text-align: start;
+  text-align: justify;
   margin-bottom: 10%;
 }
 .sobre-mi h3 {
@@ -206,11 +207,13 @@ textarea {
   border: none;
   padding: 3%;
   border-radius: 5%;
-  font-size: 1.5vw;
+  font-size: 15px;
   font-family: "Montserrat", sans-serif;
   box-shadow: 0 5px 5px rgba(88, 101, 101, 0.1);
   cursor: pointer;
   margin: 1.5% 35%;
+  min-width: 100px;
+  align-self: center;
 }
 .btn-submit:hover {
   background-color: #e4c0a9;
