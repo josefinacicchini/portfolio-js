@@ -20,9 +20,11 @@
     />
 
     <link rel="stylesheet" href="css/styles.css" />
-    <script src="js/script.js"></script>
   </head>
   <body>
+    <div class="cambiar-modo-cont">
+      <button id="cambiar-modo" class="cambiar-modo">☾</button>
+    </div>
     <header id="home">
       <!-- <h1>¡Bienvenidos a mi portfolio!</h1> -->
       <nav id="menu" class="menu">
@@ -106,7 +108,9 @@
           ><span class="material-symbols-outlined"> arrow_circle_up </span></a
         >
       </section>
-
+      <div class="ocultar-peliculas-cont">
+        <button id="ocultar-peliculas" class="ocultar-peliculas">▼</button>
+      </div>
       <section class="peliculas-container" id="peliculas">
         <h2>Películas</h2>
         <p id="peliculas-parrafo" class="peliculas-parrafo">
@@ -156,6 +160,7 @@
       <section id="contacto" class="contacto-container">
         <h2>Contacto</h2>
         <form
+          id="formulario"
           action="https://formsubmit.com/josefinacicchini@gmail.com"
           method="POST"
         >
@@ -205,6 +210,9 @@
         >
       </section>
     </main>
+    <div id="contador-visitas-cont" class="contador-visitas-cont">
+      <p class="contador-visitas" id="contador-visitas">0</p>
+    </div>
     <footer>
       <h3>También podés encontrarme por acá</h3>
       <div class="social-icons">
@@ -278,5 +286,7 @@
         </a>
       </div>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
