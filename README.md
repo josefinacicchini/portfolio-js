@@ -4,7 +4,7 @@ Este sitio web fue desarrollado como trabajo práctico de la materia Desarrollo 
 
 Se trata de un portfolio personal que presenta información sobre mí, mis habilidades, proyectos destacados y una sección de películas que me inspiran. Fue construido con HTML5, CSS3 y Javascript.
 
-Link: 🔗 https://josefinacicchini.github.io/portfolio/
+Link: 🔗 https://josefinacicchini.github.io/portfolio-js/
 
 Se ha implementado la siguiente funcionalidad con JavaScript:
 
